@@ -5,11 +5,11 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <meta name="description" content="skill:向选定的进程发送信号冻结进程 - 最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。">
-    <meta name="keywords" content="Linux,Command,命令大全,Linux命令手册,skill,向选定的进程发送信号冻结进程">
-    <title>skill 命令，Linux skill 命令详解：向选定的进程发送信号冻结进程 -  Linux 命令搜索引擎</title>
+    <meta name="description" content="cursor-agent:Cursor IDE 中的 AI 编程助手 - 最专业的Linux命令大全，内容包含Linux命令手册、详解、学习，值得收藏的Linux命令速查手册。">
+    <meta name="keywords" content="Linux,Command,命令大全,Linux命令手册,cursor-agent,Cursor IDE 中的 AI 编程助手">
+    <title>cursor-agent 命令，Linux cursor-agent 命令详解：Cursor IDE 中的 AI 编程助手 -  Linux 命令搜索引擎</title>
     <link rel="shortcut icon" href="../img/favicon.ico">
-    <link rel="stylesheet" type="text/css" href="../css/index.css?v=1765286553019">
+    <link rel="stylesheet" type="text/css" href="../css/index.css?v=1765286548338">
     <script src="../js/dark-mode.min.js"></script>
 </head>
 <body>
@@ -27,7 +27,7 @@
           </ul>
           <input type="text" class="query" id="query" autocomplete="off" autofocus="autofocus" placeholder="Linux 命令搜索"/>
           <div class="enter-input">
-              <input type="hidden" id="current_path" value="/c/skill.html">
+              <input type="hidden" id="current_path" value="/c/cursor-agent.html">
               <button id="search_btn">搜索</button>
           </div>
       </div>
@@ -38,7 +38,7 @@
 <div class="markdown-body">
 
 <span class="edit_btn">
-<a target="_blank" href="https://github.com/xiechengqi/cmd/edit/main/command/skill.md">修改</a> 
+<a target="_blank" href="https://github.com/xiechengqi/cmd/edit/main/command/cursor-agent.md">修改</a> 
 </span>
 
 
@@ -127,135 +127,243 @@ class MarkdownStyle extends HTMLElement {
     }
 }
 customElements.define('markdown-style', MarkdownStyle);</script><markdown-style style="max-width: 960px; margin: 0 auto 60px auto; padding: 8px;" class="markdown-style">
-<h1 id="skill"><a class="anchor" aria-hidden="true" tabindex="-1" href="#skill"><span class="octicon octicon-link"></span></a>skill</h1>
-<p>向选定的进程发送信号冻结进程</p>
+<h1 id="cursor-agent"><a class="anchor" aria-hidden="true" tabindex="-1" href="#cursor-agent"><span class="octicon octicon-link"></span></a>cursor-agent</h1>
+<p>Cursor IDE 中的 AI 编程助手</p>
 <h2 id="补充说明"><a class="anchor" aria-hidden="true" tabindex="-1" href="#补充说明"><span class="octicon octicon-link"></span></a>补充说明</h2>
-<p><strong>skill命令</strong> 用于向选定的进程发送信号，冻结进程。这个命令初学者并不常用，深入之后牵涉到系统服务优化之后可能会用到。</p>
+<p><strong>cursor-agent</strong> 是 Cursor IDE 内置的 AI 编程助手，基于大型语言模型，可以帮助开发者进行代码编写、调试、重构、解释和优化。它能够理解上下文，提供智能代码补全、错误修复建议和代码解释等功能。</p>
 <h3 id="语法"><a class="anchor" aria-hidden="true" tabindex="-1" href="#语法"><span class="octicon octicon-link"></span></a>语法</h3>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill<span class="token punctuation">(</span>选项<span class="token punctuation">)</span>
-</span></code><div onclick="copied(this)" data-code="skill(选项)
+<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1"><span class="token comment"># 在 Cursor IDE 中使用</span>
+</span><span class="code-line line-number" line="2">Cmd/Ctrl + K          <span class="token comment"># 内联编辑模式</span>
+</span><span class="code-line line-number" line="3">Cmd/Ctrl + L          <span class="token comment"># 打开聊天面板</span>
+</span><span class="code-line line-number" line="4">Cmd/Ctrl + I          <span class="token comment"># 组合编辑模式</span>
+</span></code><div onclick="copied(this)" data-code="# 在 Cursor IDE 中使用
+Cmd/Ctrl + K          # 内联编辑模式
+Cmd/Ctrl + L          # 打开聊天面板
+Cmd/Ctrl + I          # 组合编辑模式
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
 <h3 id="选项"><a class="anchor" aria-hidden="true" tabindex="-1" href="#选项"><span class="octicon octicon-link"></span></a>选项</h3>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">-f：快速模式；
-</span><span class="code-line line-number" line="2">-i：交互模式，每一步操作都需要确认；
-</span><span class="code-line line-number" line="3">-v：冗余模式；
-</span><span class="code-line line-number" line="4">-w：激活模式；
-</span><span class="code-line line-number" line="5">-V：显示版本号；
-</span><span class="code-line line-number" line="6">-t：指定开启进程的终端号；
-</span><span class="code-line line-number" line="7">-u：指定开启进程的用户；
-</span><span class="code-line line-number" line="8">-p：指定进程的id号；
-</span><span class="code-line line-number" line="9">-c：指定开启进程的指令名称。
-</span></code><div onclick="copied(this)" data-code="-f：快速模式；
--i：交互模式，每一步操作都需要确认；
--v：冗余模式；
--w：激活模式；
--V：显示版本号；
--t：指定开启进程的终端号；
--u：指定开启进程的用户；
--p：指定进程的id号；
--c：指定开启进程的指令名称。
+<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1"><span class="token comment"># 快捷键操作</span>
+</span><span class="code-line line-number" line="2">Cmd/Ctrl + K          <span class="token comment"># 内联编辑：在代码中直接编辑，AI 会根据上下文修改代码</span>
+</span><span class="code-line line-number" line="3">Cmd/Ctrl + L          <span class="token comment"># 聊天模式：打开侧边栏聊天窗口，可以与 AI 对话</span>
+</span><span class="code-line line-number" line="4">Cmd/Ctrl + I          <span class="token comment"># 组合编辑：在编辑器中打开组合编辑面板</span>
+</span><span class="code-line line-number" line="5">
+</span><span class="code-line line-number" line="6"><span class="token comment"># 聊天命令</span>
+</span><span class="code-line line-number" line="7">@文件名                <span class="token comment"># 引用特定文件到上下文中</span>
+</span><span class="code-line line-number" line="8">@文件夹名              <span class="token comment"># 引用整个文件夹到上下文中</span>
+</span><span class="code-line line-number" line="9">@代码库                <span class="token comment"># 引用整个代码库到上下文中</span>
+</span><span class="code-line line-number" line="10">@最近的文件            <span class="token comment"># 引用最近打开的文件</span>
+</span><span class="code-line line-number" line="11">@网络搜索              <span class="token comment"># 启用网络搜索功能</span>
+</span><span class="code-line line-number" line="12">@文档                  <span class="token comment"># 引用项目文档</span>
+</span><span class="code-line line-number" line="13">
+</span><span class="code-line line-number" line="14"><span class="token comment"># 代码操作</span>
+</span><span class="code-line line-number" line="15">Ctrl + Enter          <span class="token comment"># 接受 AI 建议</span>
+</span><span class="code-line line-number" line="16">Esc                   <span class="token comment"># 取消当前操作</span>
+</span><span class="code-line line-number" line="17">Tab                   <span class="token comment"># 接受部分建议</span>
+</span></code><div onclick="copied(this)" data-code="# 快捷键操作
+Cmd/Ctrl + K          # 内联编辑：在代码中直接编辑，AI 会根据上下文修改代码
+Cmd/Ctrl + L          # 聊天模式：打开侧边栏聊天窗口，可以与 AI 对话
+Cmd/Ctrl + I          # 组合编辑：在编辑器中打开组合编辑面板
+
+# 聊天命令
+@文件名                # 引用特定文件到上下文中
+@文件夹名              # 引用整个文件夹到上下文中
+@代码库                # 引用整个代码库到上下文中
+@最近的文件            # 引用最近打开的文件
+@网络搜索              # 启用网络搜索功能
+@文档                  # 引用项目文档
+
+# 代码操作
+Ctrl + Enter          # 接受 AI 建议
+Esc                   # 取消当前操作
+Tab                   # 接受部分建议
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h3 id="参数"><a class="anchor" aria-hidden="true" tabindex="-1" href="#参数"><span class="octicon octicon-link"></span></a>参数</h3>
+<p><strong>内联编辑模式</strong>：在代码中选中文本后，按 <code>Cmd/Ctrl + K</code>，输入指令进行编辑。</p>
+<p><strong>聊天模式</strong>：按 <code>Cmd/Ctrl + L</code> 打开聊天面板，可以：</p>
+<ul>
+  <li>询问代码相关问题</li>
+  <li>请求代码生成</li>
+  <li>获取代码解释</li>
+  <li>进行代码重构建议</li>
+</ul>
+<p><strong>组合编辑模式</strong>：按 <code>Cmd/Ctrl + I</code> 打开组合编辑面板，可以：</p>
+<ul>
+  <li>同时编辑多个位置</li>
+  <li>进行大规模重构</li>
+  <li>生成多个相关文件</li>
+</ul>
 <h3 id="实例"><a class="anchor" aria-hidden="true" tabindex="-1" href="#实例"><span class="octicon octicon-link"></span></a>实例</h3>
-<p>如果您发现了一个占用大量CPU和内存的进程，但又不想停止它，该怎么办？考虑下面的top命令输出：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1"><span class="token function">top</span> <span class="token parameter variable">-c</span> <span class="token parameter variable">-p</span> <span class="token number">16514</span>
-</span><span class="code-line line-number" line="2"><span class="token number">23</span>:00:44  up <span class="token number">12</span> days,  <span class="token number">2</span>:04,  <span class="token number">4</span> users,  load average: <span class="token number">0.47</span>, <span class="token number">0.35</span>, <span class="token number">0.31</span>
-</span><span class="code-line line-number" line="3"><span class="token number">1</span> processes: <span class="token number">1</span> sleeping, <span class="token number">0</span> running, <span class="token number">0</span> zombie, <span class="token number">0</span> stopped
-</span><span class="code-line line-number" line="4">CPU states:  cpu    user    <span class="token function">nice</span>  system    irq  softirq  iowait    idle
-</span><span class="code-line line-number" line="5">           total    <span class="token number">0.0</span>%    <span class="token number">0.6</span>%    <span class="token number">8.7</span>%   <span class="token number">2.2</span>%     <span class="token number">0.0</span>%   <span class="token number">88.3</span>%    <span class="token number">0.0</span>%
-</span><span class="code-line line-number" line="6">Mem:  1026912k av, 1010476k used,   16436k free,       0k shrd,   52128k buff
-</span><span class="code-line line-number" line="7">                    766724k actv,  143128k in_d,   14264k in_c
-</span><span class="code-line line-number" line="8">Swap: 2041192k av,   83160k used, 1958032k <span class="token function">free</span>                  799432k cached
-</span><span class="code-line line-number" line="9">
-</span><span class="code-line line-number" line="10">  PID <span class="token environment constant">USER</span>     PRI  NI  SIZE  RSS SHARE <span class="token function">stat</span> %CPU %MEM   <span class="token function">time</span> CPU <span class="token builtin class-name">command</span>
-</span><span class="code-line line-number" line="11"><span class="token number">16514</span> oracle    <span class="token number">19</span>   <span class="token number">4</span> <span class="token number">28796</span>  26M <span class="token number">20252</span> D N   <span class="token number">7.0</span>  <span class="token number">2.5</span>   <span class="token number">0</span>:03   <span class="token number">0</span> oraclePRODB2<span class="token punctuation">..</span>.
-</span></code><div onclick="copied(this)" data-code="top -c -p 16514
-23:00:44  up 12 days,  2:04,  4 users,  load average: 0.47, 0.35, 0.31
-1 processes: 1 sleeping, 0 running, 0 zombie, 0 stopped
-CPU states:  cpu    user    nice  system    irq  softirq  iowait    idle
-           total    0.0%    0.6%    8.7%   2.2%     0.0%   88.3%    0.0%
-Mem:  1026912k av, 1010476k used,   16436k free,       0k shrd,   52128k buff
-                    766724k actv,  143128k in_d,   14264k in_c
-Swap: 2041192k av,   83160k used, 1958032k free                  799432k cached
-
-  PID USER     PRI  NI  SIZE  RSS SHARE stat %CPU %MEM   time CPU command
-16514 oracle    19   4 28796  26M 20252 D N   7.0  2.5   0:03   0 oraclePRODB2...
+<h4 id="基本代码生成"><a class="anchor" aria-hidden="true" tabindex="-1" href="#基本代码生成"><span class="octicon octicon-link"></span></a>基本代码生成</h4>
+<p>在聊天面板中请求生成代码：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">请帮我创建一个 React 组件，用于显示用户列表
+</span></code><div onclick="copied(this)" data-code="请帮我创建一个 React 组件，用于显示用户列表
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>既然您确认进程16514占用了大量内存，您就可以使用skill命令“冻结”它，而不是停止它。</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill <span class="token parameter variable">-STOP</span> <span class="token number">1</span>
-</span></code><div onclick="copied(this)" data-code="skill -STOP 1
+<h4 id="代码解释"><a class="anchor" aria-hidden="true" tabindex="-1" href="#代码解释"><span class="octicon octicon-link"></span></a>代码解释</h4>
+<p>选中代码后，在聊天面板中询问：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">这段代码的作用是什么？
+</span></code><div onclick="copied(this)" data-code="这段代码的作用是什么？
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>之后，检查top输出：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1"><span class="token number">23</span>:01:11  up <span class="token number">12</span> days,  <span class="token number">2</span>:05,  <span class="token number">4</span> users,  load average: <span class="token number">1.20</span>, <span class="token number">0.54</span>, <span class="token number">0.38</span>
-</span><span class="code-line line-number" line="2"><span class="token number">1</span> processes: <span class="token number">0</span> sleeping, <span class="token number">0</span> running, <span class="token number">0</span> zombie, <span class="token number">1</span> stopped
-</span><span class="code-line line-number" line="3">CPU states:  cpu    user    <span class="token function">nice</span>  system    irq  softirq  iowait    idle
-</span><span class="code-line line-number" line="4">           total    <span class="token number">2.3</span>%    <span class="token number">0.0</span>%    <span class="token number">0.3</span>%   <span class="token number">0.0</span>%     <span class="token number">0.0</span>%    <span class="token number">2.3</span>%   <span class="token number">94.8</span>%
-</span><span class="code-line line-number" line="5">Mem:  1026912k av, 1008756k used,   18156k free,       0k shrd,    3976k buff
-</span><span class="code-line line-number" line="6">                    770024k actv,  143496k in_d,   12876k in_c
-</span><span class="code-line line-number" line="7">Swap: 2041192k av,   83152k used, 1958040k <span class="token function">free</span>                  851200k cached
-</span><span class="code-line line-number" line="8">
-</span><span class="code-line line-number" line="9">  PID <span class="token environment constant">USER</span>     PRI  NI  SIZE  RSS SHARE STAT %CPU %MEM   TIME CPU COMMAND
-</span><span class="code-line line-number" line="10"><span class="token number">16514</span> oracle    <span class="token number">19</span>   <span class="token number">4</span> <span class="token number">28796</span>  26M <span class="token number">20252</span> T N   <span class="token number">0.0</span>  <span class="token number">2.5</span>   <span class="token number">0</span>:04   <span class="token number">0</span> oraclePRODB2<span class="token punctuation">..</span>.
-</span></code><div onclick="copied(this)" data-code="23:01:11  up 12 days,  2:05,  4 users,  load average: 1.20, 0.54, 0.38
-1 processes: 0 sleeping, 0 running, 0 zombie, 1 stopped
-CPU states:  cpu    user    nice  system    irq  softirq  iowait    idle
-           total    2.3%    0.0%    0.3%   0.0%     0.0%    2.3%   94.8%
-Mem:  1026912k av, 1008756k used,   18156k free,       0k shrd,    3976k buff
-                    770024k actv,  143496k in_d,   12876k in_c
-Swap: 2041192k av,   83152k used, 1958040k free                  851200k cached
-
-  PID USER     PRI  NI  SIZE  RSS SHARE STAT %CPU %MEM   TIME CPU COMMAND
-16514 oracle    19   4 28796  26M 20252 T N   0.0  2.5   0:04   0 oraclePRODB2...
+<h4 id="代码重构"><a class="anchor" aria-hidden="true" tabindex="-1" href="#代码重构"><span class="octicon octicon-link"></span></a>代码重构</h4>
+<p>选中代码后，按 <code>Cmd/Ctrl + K</code>，输入：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">重构这段代码，使其更易读
+</span></code><div onclick="copied(this)" data-code="重构这段代码，使其更易读
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>现在，CPU 从 0% 空闲变为 94% 空闲。该进程被有效冻结。过一段时间之后，您可能希望唤醒该进程：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill <span class="token parameter variable">-CONT</span> <span class="token number">16514</span>
-</span></code><div onclick="copied(this)" data-code="skill -CONT 16514
+<h4 id="错误修复"><a class="anchor" aria-hidden="true" tabindex="-1" href="#错误修复"><span class="octicon octicon-link"></span></a>错误修复</h4>
+<p>当代码有错误时，AI 会自动检测并建议修复：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">修复这个 TypeScript 类型错误
+</span></code><div onclick="copied(this)" data-code="修复这个 TypeScript 类型错误
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>如果希望暂时冻结进程以便为完成更重要的进程腾出空间，该方法非常有用。</p>
-<p>此命令用途很广。如果您要停止 "oracle" 用户的所有进程，只需要一个命令即可实现：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill <span class="token parameter variable">-STOP</span> oracle
-</span></code><div onclick="copied(this)" data-code="skill -STOP oracle
+<h4 id="代码补全"><a class="anchor" aria-hidden="true" tabindex="-1" href="#代码补全"><span class="octicon octicon-link"></span></a>代码补全</h4>
+<p>在编写代码时，AI 会自动提供智能补全建议：</p>
+<pre class="language-typescript"><code class="language-typescript code-highlight"><span class="code-line line-number" line="1"><span class="token comment">// 输入：const user = </span>
+</span><span class="code-line line-number" line="2"><span class="token comment">// AI 会自动补全：const user = { name: string, age: number }</span>
+</span></code><div onclick="copied(this)" data-code="// 输入：const user = 
+// AI 会自动补全：const user = { name: string, age: number }
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>可以使用用户、PID、命令或终端 id 作为参数。以下命令可停止所有 rman 命令。</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill <span class="token parameter variable">-STOP</span> rman
-</span></code><div onclick="copied(this)" data-code="skill -STOP rman
+<h4 id="使用文件引用"><a class="anchor" aria-hidden="true" tabindex="-1" href="#使用文件引用"><span class="octicon octicon-link"></span></a>使用文件引用</h4>
+<p>在聊天中使用 <code>@</code> 符号引用文件：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">@utils.ts 请解释这个工具文件中的函数
+</span></code><div onclick="copied(this)" data-code="@utils.ts 请解释这个工具文件中的函数
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>如您所见，skill 决定您输入的参数（进程 ID、用户 ID 或命令）并进行相应操作。这可能会导致在某些情况下出现这样的问题：您可能具有同名的用户和命令。最好的示例是 "oracle" 进程，通常由用户 "oracle" 运行。因此，当您希望停止名为 "oracle" 的进程时，可执行以下命令：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill <span class="token parameter variable">-STOP</span> oracle
-</span></code><div onclick="copied(this)" data-code="skill -STOP oracle
+<h4 id="多文件编辑"><a class="anchor" aria-hidden="true" tabindex="-1" href="#多文件编辑"><span class="octicon octicon-link"></span></a>多文件编辑</h4>
+<p>使用组合编辑模式同时修改多个文件：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">创建一个用户认证系统，包括登录、注册和密码重置功能
+</span></code><div onclick="copied(this)" data-code="创建一个用户认证系统，包括登录、注册和密码重置功能
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>用户 "oracle" 的所有进程都停止，包括您可能要使用的会话。要非常明确地执行命令，您可以选择使用一个新参数指定参数的类型。要停止一个名为 oracle 的命令，可执行以下命令：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">skill <span class="token parameter variable">-STOP</span> <span class="token parameter variable">-c</span> oracle
-</span></code><div onclick="copied(this)" data-code="skill -STOP -c oracle
+<h4 id="代码审查"><a class="anchor" aria-hidden="true" tabindex="-1" href="#代码审查"><span class="octicon octicon-link"></span></a>代码审查</h4>
+<p>请求 AI 审查代码：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">请审查这段代码，找出潜在的问题和改进建议
+</span></code><div onclick="copied(this)" data-code="请审查这段代码，找出潜在的问题和改进建议
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>snice命令的功能与skill类似。但它用于降低进程的优先级，而不是停止进程。首先，检查 top 输出：</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">  PID <span class="token environment constant">USER</span>     PRI  NI  SIZE  RSS SHARE STAT %CPU %MEM   TIME CPU COMMAND
-</span><span class="code-line line-number" line="2">    <span class="token number">3</span> root      <span class="token number">15</span>   <span class="token number">0</span>     <span class="token number">0</span>    <span class="token number">0</span>     <span class="token number">0</span> RW    <span class="token number">0.0</span>  <span class="token number">0.0</span>   <span class="token number">0</span>:00   <span class="token number">0</span> kapmd
-</span><span class="code-line line-number" line="3"><span class="token number">13680</span> oracle    <span class="token number">15</span>   <span class="token number">0</span> <span class="token number">11336</span>  10M  <span class="token number">8820</span> T     <span class="token number">0.0</span>  <span class="token number">1.0</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span><span class="code-line line-number" line="4"><span class="token number">13683</span> oracle    <span class="token number">15</span>   <span class="token number">0</span>  <span class="token number">9972</span> <span class="token number">9608</span>  <span class="token number">7788</span> T     <span class="token number">0.0</span>  <span class="token number">0.9</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span><span class="code-line line-number" line="5"><span class="token number">13686</span> oracle    <span class="token number">15</span>   <span class="token number">0</span>  <span class="token number">9860</span> <span class="token number">9496</span>  <span class="token number">7676</span> T     <span class="token number">0.0</span>  <span class="token number">0.9</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span><span class="code-line line-number" line="6"><span class="token number">13689</span> oracle    <span class="token number">15</span>   <span class="token number">0</span> <span class="token number">10004</span> <span class="token number">9640</span>  <span class="token number">7820</span> T     <span class="token number">0.0</span>  <span class="token number">0.9</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span><span class="code-line line-number" line="7"><span class="token number">13695</span> oracle    <span class="token number">15</span>   <span class="token number">0</span>  <span class="token number">9984</span> <span class="token number">9620</span>  <span class="token number">7800</span> T     <span class="token number">0.0</span>  <span class="token number">0.9</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span><span class="code-line line-number" line="8"><span class="token number">13698</span> oracle    <span class="token number">15</span>   <span class="token number">0</span> <span class="token number">10064</span> <span class="token number">9700</span>  <span class="token number">7884</span> T     <span class="token number">0.0</span>  <span class="token number">0.9</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span><span class="code-line line-number" line="9"><span class="token number">13701</span> oracle    <span class="token number">15</span>   <span class="token number">0</span> <span class="token number">22204</span>  21M <span class="token number">16940</span> T     <span class="token number">0.0</span>  <span class="token number">2.1</span>   <span class="token number">0</span>:00   <span class="token number">0</span> oracle
-</span></code><div onclick="copied(this)" data-code="  PID USER     PRI  NI  SIZE  RSS SHARE STAT %CPU %MEM   TIME CPU COMMAND
-    3 root      15   0     0    0     0 RW    0.0  0.0   0:00   0 kapmd
-13680 oracle    15   0 11336  10M  8820 T     0.0  1.0   0:00   0 oracle
-13683 oracle    15   0  9972 9608  7788 T     0.0  0.9   0:00   0 oracle
-13686 oracle    15   0  9860 9496  7676 T     0.0  0.9   0:00   0 oracle
-13689 oracle    15   0 10004 9640  7820 T     0.0  0.9   0:00   0 oracle
-13695 oracle    15   0  9984 9620  7800 T     0.0  0.9   0:00   0 oracle
-13698 oracle    15   0 10064 9700  7884 T     0.0  0.9   0:00   0 oracle
-13701 oracle    15   0 22204  21M 16940 T     0.0  2.1   0:00   0 oracle
+<h4 id="生成测试代码"><a class="anchor" aria-hidden="true" tabindex="-1" href="#生成测试代码"><span class="octicon octicon-link"></span></a>生成测试代码</h4>
+<p>请求生成测试用例：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">为这个函数生成单元测试
+</span></code><div onclick="copied(this)" data-code="为这个函数生成单元测试
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>现在，将 "oracle" 进程的优先级降低四个点。注意，该值越高，优先级越低。</p>
-<pre class="language-shell"><code class="language-shell code-highlight"><span class="code-line line-number" line="1">snice +4 <span class="token parameter variable">-u</span> oracle
-</span><span class="code-line line-number" line="2">  PID <span class="token environment constant">USER</span>     PRI  NI  SIZE  RSS SHARE STAT %CPU %MEM   TIME CPU COMMAND
-</span><span class="code-line line-number" line="3"><span class="token number">16894</span> oracle    <span class="token number">20</span>   <span class="token number">4</span> <span class="token number">38904</span>  32M <span class="token number">26248</span> D N   <span class="token number">5.5</span>  <span class="token number">3.2</span>   <span class="token number">0</span>:01   <span class="token number">0</span> oracle
-</span></code><div onclick="copied(this)" data-code="snice +4 -u oracle
-  PID USER     PRI  NI  SIZE  RSS SHARE STAT %CPU %MEM   TIME CPU COMMAND
-16894 oracle    20   4 38904  32M 26248 D N   5.5  3.2   0:01   0 oracle
+<h4 id="文档生成"><a class="anchor" aria-hidden="true" tabindex="-1" href="#文档生成"><span class="octicon octicon-link"></span></a>文档生成</h4>
+<p>请求生成代码文档：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">为这个类生成 JSDoc 注释
+</span></code><div onclick="copied(this)" data-code="为这个类生成 JSDoc 注释
 " class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
-<p>注意，NI 列（nice 值）现在是 4，优先级现在设置为 20，而不是 15。这对于降低优先级非常有帮助。</p>
+<h4 id="代码翻译"><a class="anchor" aria-hidden="true" tabindex="-1" href="#代码翻译"><span class="octicon octicon-link"></span></a>代码翻译</h4>
+<p>将代码从一种语言转换为另一种：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">将这个 Python 函数转换为 JavaScript
+</span></code><div onclick="copied(this)" data-code="将这个 Python 函数转换为 JavaScript
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h4 id="性能优化"><a class="anchor" aria-hidden="true" tabindex="-1" href="#性能优化"><span class="octicon octicon-link"></span></a>性能优化</h4>
+<p>请求性能优化建议：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">优化这个函数的性能
+</span></code><div onclick="copied(this)" data-code="优化这个函数的性能
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h4 id="使用网络搜索"><a class="anchor" aria-hidden="true" tabindex="-1" href="#使用网络搜索"><span class="octicon octicon-link"></span></a>使用网络搜索</h4>
+<p>启用网络搜索获取最新信息：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">@网络搜索 最新的 React 18 特性有哪些？
+</span></code><div onclick="copied(this)" data-code="@网络搜索 最新的 React 18 特性有哪些？
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h2 id="扩展知识"><a class="anchor" aria-hidden="true" tabindex="-1" href="#扩展知识"><span class="octicon octicon-link"></span></a>扩展知识</h2>
+<h3 id="最佳实践"><a class="anchor" aria-hidden="true" tabindex="-1" href="#最佳实践"><span class="octicon octicon-link"></span></a>最佳实践</h3>
+<ol>
+  <li>
+    <p><strong>提供清晰的上下文</strong>：在提问时，尽量提供足够的上下文信息，包括：</p>
+    <ul>
+      <li>项目类型和框架</li>
+      <li>相关文件引用</li>
+      <li>具体需求描述</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>使用文件引用</strong>：使用 <code>@文件名</code> 引用相关文件，让 AI 更好地理解代码结构。</p>
+  </li>
+  <li>
+    <p><strong>分步骤进行</strong>：对于复杂任务，将其分解为多个小步骤，逐步完成。</p>
+  </li>
+  <li>
+    <p><strong>审查 AI 建议</strong>：始终审查 AI 生成的代码，确保符合项目规范和最佳实践。</p>
+  </li>
+  <li>
+    <p><strong>利用组合编辑</strong>：对于涉及多个文件的更改，使用组合编辑模式更高效。</p>
+  </li>
+</ol>
+<h3 id="常用提示词模板"><a class="anchor" aria-hidden="true" tabindex="-1" href="#常用提示词模板"><span class="octicon octicon-link"></span></a>常用提示词模板</h3>
+<p><strong>代码生成</strong>：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">创建一个 [组件/函数/类]，功能是 [具体功能描述]，使用 [技术栈/框架]
+</span></code><div onclick="copied(this)" data-code="创建一个 [组件/函数/类]，功能是 [具体功能描述]，使用 [技术栈/框架]
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p><strong>代码重构</strong>：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">重构这段代码，使其 [更易读/更高效/更符合最佳实践]
+</span></code><div onclick="copied(this)" data-code="重构这段代码，使其 [更易读/更高效/更符合最佳实践]
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p><strong>错误修复</strong>：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">修复这个错误：[错误描述或错误信息]
+</span></code><div onclick="copied(this)" data-code="修复这个错误：[错误描述或错误信息]
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p><strong>代码解释</strong>：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">解释这段代码的工作原理：[选中代码]
+</span></code><div onclick="copied(this)" data-code="解释这段代码的工作原理：[选中代码]
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<p><strong>代码优化</strong>：</p>
+<pre><code class="code-highlight"><span class="code-line line-number" line="1">优化这段代码的 [性能/可读性/可维护性]
+</span></code><div onclick="copied(this)" data-code="优化这段代码的 [性能/可读性/可维护性]
+" class="copied"><svg class="octicon-copy" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 010 1.5h-1.5a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-1.5a.75.75 0 011.5 0v1.5A1.75 1.75 0 019.25 16h-7.5A1.75 1.75 0 010 14.25v-7.5z"></path><path fill-rule="evenodd" d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0114.25 11h-7.5A1.75 1.75 0 015 9.25v-7.5zm1.75-.25a.25.25 0 00-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 00.25-.25v-7.5a.25.25 0 00-.25-.25h-7.5z"></path></svg><svg class="octicon-check" aria-hidden="true" viewBox="0 0 16 16" fill="currentColor" height="12" width="12"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg></div></pre>
+<h3 id="注意事项"><a class="anchor" aria-hidden="true" tabindex="-1" href="#注意事项"><span class="octicon octicon-link"></span></a>注意事项</h3>
+<ol>
+  <li>
+    <p><strong>隐私和安全</strong>：注意不要在代码中包含敏感信息（如 API 密钥、密码等）。</p>
+  </li>
+  <li>
+    <p><strong>代码审查</strong>：AI 生成的代码需要人工审查，确保正确性和安全性。</p>
+  </li>
+  <li>
+    <p><strong>版本兼容性</strong>：AI 可能不了解项目特定的版本要求，需要手动调整。</p>
+  </li>
+  <li>
+    <p><strong>性能考虑</strong>：AI 建议的代码可能不是最优解，需要根据实际情况优化。</p>
+  </li>
+  <li>
+    <p><strong>学习工具</strong>：将 AI 助手作为学习和辅助工具，而不是完全依赖它。</p>
+  </li>
+</ol>
+<h3 id="快捷键总结"><a class="anchor" aria-hidden="true" tabindex="-1" href="#快捷键总结"><span class="octicon octicon-link"></span></a>快捷键总结</h3>
+<table>
+  <thead>
+    <tr>
+      <th>快捷键</th>
+      <th>功能</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>Cmd/Ctrl + K</code></td>
+      <td>内联编辑模式</td>
+    </tr>
+    <tr>
+      <td><code>Cmd/Ctrl + L</code></td>
+      <td>打开聊天面板</td>
+    </tr>
+    <tr>
+      <td><code>Cmd/Ctrl + I</code></td>
+      <td>组合编辑模式</td>
+    </tr>
+    <tr>
+      <td><code>Ctrl + Enter</code></td>
+      <td>接受 AI 建议</td>
+    </tr>
+    <tr>
+      <td><code>Esc</code></td>
+      <td>取消当前操作</td>
+    </tr>
+    <tr>
+      <td><code>Tab</code></td>
+      <td>接受部分建议</td>
+    </tr>
+  </tbody>
+</table>
+<h3 id="相关资源"><a class="anchor" aria-hidden="true" tabindex="-1" href="#相关资源"><span class="octicon octicon-link"></span></a>相关资源</h3>
+<ul>
+  <li>Cursor 官方文档：<a href="https://cursor.sh/docs">https://cursor.sh/docs</a></li>
+  <li>Cursor 社区：<a href="https://cursor.sh/community">https://cursor.sh/community</a></li>
+  <li>GitHub Issues：<a href="https://github.com/getcursor/cursor">https://github.com/getcursor/cursor</a></li>
+</ul>
 <style>markdown-style pre .copied {
   display: flex;
   position: absolute;
@@ -321,7 +429,7 @@ function copied(target, str) {
   </div>
 </div>
 
-<script type="text/javascript" src="../js/dt.js?v=1765286553020"></script>
-<script type="text/javascript" src="../js/index.js?v=1765286553020"></script>
+<script type="text/javascript" src="../js/dt.js?v=1765286548338"></script>
+<script type="text/javascript" src="../js/index.js?v=1765286548338"></script>
 </body>
 </html>
