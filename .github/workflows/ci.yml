@@ -21,6 +21,7 @@ jobs:
         run: |
           npm install
           npm run build
+          echo 'cmd.xiechengqi.top' > .deploy/CNAME
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
