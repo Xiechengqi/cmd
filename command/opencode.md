@@ -20,17 +20,47 @@ opencode 提供了直观的文本用户界面（TUI），支持多种工作模�
 
 ---
 
+## CLI（命令行界面）和 TUI（终端用户界面）
+
+* CLI（命令行界面）和 TUI（终端用户界面）在 OpenCode 中代表了两种主要的交互方式：
+
+### TUI（终端用户界面）
+TUI 是 OpenCode 提供的交互式终端界面，用于使用大型语言模型（LLM）处理项目。
+
+* 默认启动： 默认情况下，OpenCode CLI 在不带任何参数运行时会启动 TUI。
+* 交互性： TUI 是一个完整的交互界面，用户可以在其中输入消息（提示），使用斜杠命令（例如 /connect, /undo, /share）快速执行操作，以及使用键盘快捷键（例如 ctrl+x 作为 Leader key）。
+* 用户体验： 在 TUI 中，用户可以通过 @ 符号进行模糊文件搜索并将文件内容添加到对话中，或者使用 ! 运行 shell 命令，其输出会作为工具结果添加到对话中。
+* 架构： TUI 充当连接到 OpenCode 服务器的客户端。OpenCode 1.0 版本对 TUI 进行了彻底重写，从基于 go+bubbletea 转移到使用 zig+solidjs 编写的内部框架 OpenTUI。
+
+### CLI（命令行界面）
+OpenCode CLI 是执行程序和非交互式任务的工具。
+* 程序化交互： CLI 接受命令，允许用户以程序化的方式与 OpenCode 交互。
+* 非交互模式： CLI 允许通过直接传递提示来在非交互模式下运行 OpenCode。这种模式对于脚本编写、自动化或在不需要启动完整 TUI 的情况下快速获得答案非常有用。
+* 命令功能： CLI 包含多种命令，例如：
+  * tui：启动 OpenCode 终端用户界面。
+  * agent：管理 OpenCode 的代理。
+  * auth：管理提供商的凭据和登录。
+  * models：列出所有可用的模型。
+  * run：在非交互模式下运行 OpenCode，直接传递提示。
+  * serve：启动一个无头（headless）OpenCode 服务器，以进行 API 访问。
+
+简而言之，TUI 提供了一个交互式、富界面的环境（类似终端中的应用程序），是日常开发工作的默认选择；而 CLI 则用于启动 TUI 或执行程序化、非交互式的任务和管理命令。
+
+<img width="678" height="553" alt="image" src="https://github.com/user-attachments/assets/90b25c93-ef3e-4cf9-9f8f-b78560ce339d" />
+
+
+
+## Build（构建）代理和 Plan（计划）
+
+ TUI（终端用户界面）Build（构建）代理和 Plan（计划）代理是两个内置的主要代理（Primary agents），它们旨在用于不同的开发工作流，主要区别在于它们对工具（尤其是修改代码和执行系统命令的工具）的访问权限上
+
 ## 快速入门
 
 ### 前置要求
 
 使用 opencode 前需要准备：
 
-1. **现代终端模拟器**（推荐）
-   - [WezTerm](https://wezterm.org) - 跨平台
-   - [Alacritty](https://alacritty.org) - 跨平台
-   - [Ghostty](https://ghostty.org) - Linux 和 macOS
-   - [Kitty](https://sw.kovidgoyal.net/kitty/) - Linux 和 macOS
+1. **终端**
 
 2. **LLM 提供商的 API Key**
    - 支持 OpenAI、Anthropic、Google、OpenRouter 等多家提供商
@@ -64,25 +94,6 @@ bun install -g opencode-ai
 
 ```shell
 brew install opencode
-```
-
-**使用 Chocolatey（Windows）**：
-
-```shell
-choco install opencode
-```
-
-**使用 Scoop（Windows）**：
-
-```shell
-scoop bucket add extras
-scoop install extras/opencode
-```
-
-**使用 Paru（Arch Linux）**：
-
-```shell
-paru -S opencode-bin
 ```
 
 **验证安装**：
