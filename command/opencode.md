@@ -46,13 +46,11 @@ OpenCode CLI 是执行程序和非交互式任务的工具。
 
 简而言之，TUI 提供了一个交互式、富界面的环境（类似终端中的应用程序），是日常开发工作的默认选择；而 CLI 则用于启动 TUI 或执行程序化、非交互式的任务和管理命令。
 
-<img width="678" height="553" alt="image" src="https://github.com/user-attachments/assets/90b25c93-ef3e-4cf9-9f8f-b78560ce339d" />
-
-
-
 ## Build（构建）代理和 Plan（计划）
 
  TUI（终端用户界面）Build（构建）代理和 Plan（计划）代理是两个内置的主要代理（Primary agents），它们旨在用于不同的开发工作流，主要区别在于它们对工具（尤其是修改代码和执行系统命令的工具）的访问权限上
+
+<img width="678" height="553" alt="image" src="https://github.com/user-attachments/assets/90b25c93-ef3e-4cf9-9f8f-b78560ce339d" />
 
 ## 快速入门
 
